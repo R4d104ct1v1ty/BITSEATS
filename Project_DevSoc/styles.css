@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+}
+.eatable_button {
+    border: solid 2px white;
+    border-radius: 5%;
+    background-color: white;
+    position: absolute;
+    left: 25px;
+    bottom: 5px;
+    /*float: bottom;*/
+    width: 150px;
+}
+.eatable_button:hover {
+    border: solid 3px grey;
+}
+.restaurant_card {
+    display: inline-table;
+    background-color: red;
+    border: solid 5px blue;
+    border-radius: 5%;
+    width: 200px;
+    height: 300px;
+    margin-left: 100px;
+    text-align: center;
+    /*position: relative;*/
+}
+.type_card {
+    display: inline-block;
+}
+#t1{
+    background-color: aquamarine;
+    border: solid;
+    border-radius: 5%;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+#t2{
+    background-color: coral;
+    border: solid;
+    border-radius: 5%;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+.heading{
+    background-color: cornflowerblue;
+    text-align: center;
+}
