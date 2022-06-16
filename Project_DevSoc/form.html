@@ -15,15 +15,24 @@
        <hr>
        <br>
        <h1>Please Give Us the following details:</h1>
-       <form action="">
+       <form action="mailto:f20212772@goa.bits-pilani.ac.in"> 
         <label for="name">Name:</label>
         <input type="text" name="name" id="name">
         <label for="address">Address:</label>
         <input type="text" name="address" id="address">
         <label for="email">Email Id:</label>
         <input type="email" name="email" id="email">
-      <a href="thanks.html"> <button>Submit</button></a>
+      <a href="thanks.html"> <button id="submit">Place Order</button></a>
        </form>
+      +
     
+       <script>
+        document.getElementById("submit").onclick = function() {
+            //alert("hello");
+            //window.location = "thanks.html";
+            //window.location.replace("google.com");
+            window.location = "thanks.html";
+        };
+       </script>
 </body>
 </html>
